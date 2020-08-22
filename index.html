@@ -87,6 +87,27 @@
         src: local("Ubuntu"),
           url(http://example.com/fonts/ubuntu.woff) format("woff");
       }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        height: 75%;
+        width: 75%;
+        font-family: sans-serif;
+        text-decoration: none;
+      }
+
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      .container {
+        padding: 5px 16px;
+      }
+      p a {
+        text-decoration: none;
+        color: black;
+        font-family: Ubuntu;
+      }
     </style>
   </head>
 
@@ -147,7 +168,94 @@
           maybe I'll give that shot as well someday. -->
       </h2>
     </div>
-    <div class="full-height-2" id="projects"></div>
+    <div class="full-height-2" id="projects">
+      <table style="width: 100%; margin-right: 50px; margin-left: 50px;">
+        <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>
+            <div
+              class="card"
+              style="margin-right: 20px; background-color: azure;"
+            >
+              <img
+                src="https://imgur.com/H3Vr03q.png"
+                alt="Avatar"
+                style="width: 100%;"
+              />
+              <div class="container">
+                <h4>
+                  Myntra Product Landing Page
+                </h4>
+                <p>
+                  🌸<a href="https://codepen.io/ijyotimaurya150/pen/OJMGKMy"
+                    >Source Code</a
+                  ><br />
+                  🌸<a href="https://codepen.io/ijyotimaurya150/full/OJMGKMy"
+                    >View</a
+                  >
+                </p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div
+              class="card"
+              style="margin-right: 20px; background-color: azure;"
+            >
+              <img
+                src="https://imgur.com/RfTFtgZ.png"
+                alt="Avatar"
+                style="width: 100%;"
+              />
+              <div class="container">
+                <h4>
+                  Taylor Swift Tribute Page
+                </h4>
+                <p>
+                  🌸<a href="https://codepen.io/ijyotimaurya150/pen/eYJjpNY"
+                    >Source Code</a
+                  ><br />
+                  🌸<a href="https://codepen.io/ijyotimaurya150/full/eYJjpNY"
+                    >View</a
+                  >
+                </p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="card" style="background-color: azure;">
+              <img
+                src="https://imgur.com/lmTmAlj.png"
+                alt="Avatar"
+                style="width: 100%;"
+              />
+              <div class="container">
+                <h4>
+                  Movie Review Form
+                </h4>
+                <p>
+                  🌸<a href="https://codepen.io/ijyotimaurya150/pen/PoZyKdv"
+                    >Source Code</a
+                  ><br />
+                  🌸<a href="https://codepen.io/ijyotimaurya150/full/PoZyKdv"
+                    >View</a
+                  >
+                </p>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <!-- <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr> -->
+      </table>
+    </div>
   </body>
   <footer>
     Copyright © 2020 Jyoti Maurya
